@@ -32,6 +32,7 @@ public class User {
 
 	/**
 	 * @param the name to name
+	 * @return 
 	 */
 
 	public void setName(String name) {
