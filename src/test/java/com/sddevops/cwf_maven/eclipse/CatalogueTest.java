@@ -28,7 +28,7 @@ class CatalogueTest {
      * Rigorous Test :-)
      */
     @Test
-    public void testGetPrice()grfr
+    public void testGetPrice()
     {
         double price = cat1.getPrice();
         assertEquals(price, 1.00);
