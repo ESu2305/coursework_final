@@ -42,5 +42,11 @@ class CatalogueTest {
     	cat1.setPrice(newPrice);
     	assertEquals(cat1.getPrice(), newPrice);
     }
+    
+    @Test
+    public void testGetItem() {
+    	String item = cat1.getItem();
+    	assertEquals(item, "Fruit");
+    }
 
 }
